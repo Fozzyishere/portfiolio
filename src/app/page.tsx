@@ -7,7 +7,7 @@ import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
   return (
-    <main className="bg-gray-100 flex flex-col min-h-screen p-24">
+    <main className="bg-gruvbox-bg0 flex flex-col min-h-screen p-24">
       <Navbar />
       <Hero />
     </main>
