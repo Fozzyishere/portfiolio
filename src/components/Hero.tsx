@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "./Typewriter";
+import { Button } from "@/components/ui/Button";
 
 const Hero = () => {
   return (
@@ -11,6 +12,7 @@ const Hero = () => {
         <p className="text-l text-gray-600 mb-8">
           A guy trying to learn and build things.
         </p>
+        <Button variant={"primary"}>adsad</Button>
       </div>
     </div>
   );
