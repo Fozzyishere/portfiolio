@@ -29,7 +29,9 @@ export const Projects = () => {
       </div>
       <h3 className="text-gruvbox-fg0 pt-10">
         Smaller projects can be found on my{" "}
-        <span className="text-gruvbox-red-dark hover:text-gruvbox-red-light">Resume</span>
+        <span className="text-gruvbox-red-dark hover:text-gruvbox-red-light">
+          Resume
+        </span>
       </h3>
     </div>
   );
