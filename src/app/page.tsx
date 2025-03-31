@@ -4,7 +4,6 @@ import React from "react";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/ui/Navbar";
 import { AboutMe } from "@/components/AboutMe";
-import { Contact } from "@/components/Contact";
 import { Projects } from "@/components/Projects";
 
 export default function Home() {
@@ -13,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutMe />
+      <Projects />
     </main>
   );
 }
