@@ -18,7 +18,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
   techUsedText,
 }) => {
   return (
-    <div className="mt-10 flex flex-row items-center justify-cente w-full mx-5">
+    <div className="mt-10 flex justify-center items-center w-full h-full">
       <Card className="flex flex-row w-2/3">
         <div className="relative overflow-hidden rounded-sm content-center">
           <Image src={src} alt={alt} width={500} height={500} />
