@@ -3,6 +3,7 @@ import Typewriter from "./ui/Typewriter";
 import InfoCard from "./ui/InfoCard";
 import PortfolioImg from "../img/portfolio.png";
 import VivaMQ from "../img/vivamq.png";
+import ImageConverter from "../img/image-converter.png";
 
 export const Projects = () => {
   return (
@@ -25,6 +26,12 @@ export const Projects = () => {
           alt="VivaMQ"
           descText="VivaMQ is an AI-based question generator for the Viva exam in Maquarie University. I worked on the project as a front-end technical lead."
           techUsedText={["Next.js", "Tailwind", "Shadcn", "Zustand"]}
+        />
+        <InfoCard
+          src={ImageConverter}
+          alt="Image Converter"
+          descText="Since all free image converter are filled with ads, I decided to build my own. It utilises FFmpeg to efficiently convert images to different formats."
+          techUsedText={["React Native", "Tailwind", "FFmpeg"]}
         />
       </div>
       <h3 className="text-gruvbox-fg0 pt-10">

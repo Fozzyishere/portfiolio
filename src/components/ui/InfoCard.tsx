@@ -5,8 +5,8 @@ import Image, { StaticImageData } from "next/image";
 interface InfoCardProps {
   //Next image properties
   src: StaticImageData;
-  alt: string;
   //Text properties
+  alt: string;
   descText: string;
   techUsedText: string[];
 }
