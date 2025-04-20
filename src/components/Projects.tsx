@@ -8,7 +8,7 @@ import ImageConverter from "../img/image-converter.png";
 export const Projects = () => {
   return (
     <div className="flex flex-col items-center w-full h-full">
-      <h1 className="text-2xl text-gruvbox-purple-dark mb-4 italic ">
+      <h1 className="text-2xl text-gruvbox-blue-light mb-4 italic ">
         <Typewriter string="Projects" typeSpeed={60} />
       </h1>
       <h3 className="text-gruvbox-fg0">

@@ -4,7 +4,7 @@ import Typewriter from "./ui/Typewriter";
 export const AboutMe = () => {
   return (
     <div className="about-me text-gruvbox-fg1 flex flex-col items-center justify-center pt-25 pb-25">
-      <h1 className="text-2xl text-gruvbox-purple-dark mb-4 italic ">
+      <h1 className="text-2xl text-gruvbox-blue-light mb-4 italic">
         <Typewriter string="About me" typeSpeed={60} />
       </h1>
       <div className="w-1/2">
