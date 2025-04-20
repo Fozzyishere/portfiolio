@@ -28,17 +28,17 @@ export const Contact = () => {
             >
               Fozzyishere
             </a>
-            <li>
-              Resume:{" "}
-              <a
-                href="../public/QUOCHUY_PHAM_Resume_4.pdf"
-                className="text-gruvbox-gray-light underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View
-              </a>
-            </li>
+          </li>
+          <li>
+            Resume:{" "}
+            <a
+              href="../public/QUOCHUY_PHAM_Resume_4.pdf"
+              className="text-gruvbox-gray-light underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View
+            </a>
           </li>
         </ul>
       </div>
