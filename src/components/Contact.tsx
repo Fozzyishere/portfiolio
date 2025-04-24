@@ -35,9 +35,9 @@ export const Contact = () => {
           <li>
             Resume:{" "}
             <a
-              type="application/pdf"
-              href=".resume.pdf"
               className="text-gruvbox-gray-light underline"
+              type="application/pdf"
+              href="./resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

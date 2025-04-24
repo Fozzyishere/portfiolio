@@ -40,9 +40,9 @@ export const Projects = () => {
       <h3 className="text-sm sm:text-base md:text-lg text-gruvbox-fg0 pt-6 md:pt-10 text-center">
         Smaller projects can be found on my{" "}
         <a
+          className="text-gruvbox-red-dark hover:text-gruvbox-red-light"
           type="application/pdf"
           href="./resume.pdf"
-          className="text-gruvbox-red-dark hover:text-gruvbox-red-light"
           target="_blank"
           rel="noopener noreferrer"
         >
