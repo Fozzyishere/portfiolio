@@ -7,7 +7,7 @@ export const Contact = () => {
       id="contact"
       className="text-gruvbox-fg1 flex flex-col items-center justify-center py-10 md:py-20"
     >
-      <h1 className="text-2xl text-gruvbox-blue-light mb-4 italic">
+      <h1 className="text-xl sm:text-2xl md:text-3xl text-gruvbox-blue-light mb-4 italic">
         <Typewriter string="Contact info" typeSpeed={60} />
       </h1>
       <div>
