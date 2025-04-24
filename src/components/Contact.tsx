@@ -3,7 +3,10 @@ import Typewriter from "./ui/Typewriter";
 
 export const Contact = () => {
   return (
-    <div id="contact" className="text-gruvbox-fg1 flex flex-col items-center justify-center py-10 md:py-20">
+    <div
+      id="contact"
+      className="text-gruvbox-fg1 flex flex-col items-center justify-center py-10 md:py-20"
+    >
       <h1 className="text-2xl text-gruvbox-blue-light mb-4 italic">
         <Typewriter string="Contact info" typeSpeed={60} />
       </h1>
@@ -32,6 +35,7 @@ export const Contact = () => {
           <li>
             Resume:{" "}
             <a
+              type="application/pdf"
               href="../public/resume.pdf"
               className="text-gruvbox-gray-light underline"
               target="_blank"
