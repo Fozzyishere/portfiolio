@@ -32,7 +32,7 @@ export const Contact = () => {
           <li>
             Resume:{" "}
             <a
-              href="../public/QUOCHUY_PHAM_Resume_4.pdf"
+              href="../public/resume.pdf"
               className="text-gruvbox-gray-light underline"
               target="_blank"
               rel="noopener noreferrer"
