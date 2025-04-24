@@ -3,9 +3,7 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 
 interface InfoCardProps {
-  //Next image properties
   src: StaticImageData;
-  //Text properties
   alt: string;
   descText: string;
   techUsedText: string[];
@@ -18,17 +16,22 @@ const InfoCard: React.FC<InfoCardProps> = ({
   techUsedText,
 }) => {
   return (
-    <div className="mt-10 flex justify-center items-center w-full h-full">
-      <Card className="flex flex-row w-2/3">
-        <div className="relative overflow-hidden rounded-sm content-center">
-          <Image src={src} alt={alt} width={500} height={500} />
+    <div className="mt-6 sm:mt-10 flex justify-center items-center w-full">
+      <Card className="flex flex-col md:flex-row w-full sm:w-5/6 md:w-full">
+        <div className="relative overflow-hidden content-center rounded-sm w-full md:w-2/3">
+          <Image
+            src={src}
+            alt={alt}
+            width={500}
+            height={500}
+          />
         </div>
-        <div className="ml-4 flex flex-col w-3/4 h-64">
-          <h2 className="text-xl font-semibold text-gruvbox-purple-dark mb-2 mt-4">
+        <div className="p-4 md:ml-4 flex flex-col w-full md:w-2/3">
+          <h2 className="text-lg sm:text-xl font-semibold text-gruvbox-purple-dark mb-2">
             {alt}
           </h2>
-          <p className="text-gruvbox-fg1 text-sm">{descText}</p>
-          <div className="mt-3 flex gap-2">
+          <p className="text-gruvbox-fg1 text-xs sm:text-sm">{descText}</p>
+          <div className="mt-3 flex flex-wrap gap-2">
             {techUsedText.map((tech) => (
               <span
                 key={tech}

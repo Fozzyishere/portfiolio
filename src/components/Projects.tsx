@@ -7,14 +7,14 @@ import ImageConverter from "../img/image-converter.png";
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col items-center w-full h-full">
-      <h1 className="text-2xl text-gruvbox-blue-light mb-4 italic ">
+    <div className="flex flex-col items-center w-full h-full py-10 md:py-20">
+      <h1 className="text-xl sm:text-2xl md:text-3xl text-gruvbox-blue-light mb-2 sm:mb-4 italic">
         <Typewriter string="Projects" typeSpeed={60} />
       </h1>
-      <h3 className="text-gruvbox-fg0">
-        Some cool stuff I did throughout my journey so far
+      <h3 className="text-sm sm:text-base md:text-lg text-gruvbox-fg0 text-center mb-6">
+        Some cool stuff I made.
       </h3>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full max-w-4xl gap-6 md:gap-8">
         <InfoCard
           src={PortfolioImg}
           alt="Portfolio"
@@ -34,7 +34,7 @@ export const Projects = () => {
           techUsedText={["React Native", "Tailwind", "FFmpeg"]}
         />
       </div>
-      <h3 className="text-gruvbox-fg0 pt-10">
+      <h3 className="text-sm sm:text-base md:text-lg text-gruvbox-fg0 pt-6 md:pt-10 text-center">
         Smaller projects can be found on my{" "}
         <span className="text-gruvbox-red-dark hover:text-gruvbox-red-light">
           Resume

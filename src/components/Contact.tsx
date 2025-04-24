@@ -3,7 +3,7 @@ import Typewriter from "./ui/Typewriter";
 
 export const Contact = () => {
   return (
-    <div className="text-gruvbox-fg1 flex flex-col items-center justify-center pt-25 pb-25">
+    <div className="text-gruvbox-fg1 flex flex-col items-center justify-center py-10 md:py-20">
       <h1 className="text-2xl text-gruvbox-blue-light mb-4 italic">
         <Typewriter string="Contact info" typeSpeed={60} />
       </h1>
