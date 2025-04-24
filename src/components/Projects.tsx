@@ -41,7 +41,7 @@ export const Projects = () => {
         Smaller projects can be found on my{" "}
         <a
           type="application/pdf"
-          href="../public/resume.pdf"
+          href="./resume.pdf"
           className="text-gruvbox-red-dark hover:text-gruvbox-red-light"
           target="_blank"
           rel="noopener noreferrer"
