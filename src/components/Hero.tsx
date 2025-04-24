@@ -4,7 +4,7 @@ import { FaChevronRight } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="py-20">
+    <div className="py-10 md:py-20">
       <div className="container mx-auto text-left">
         <h1 className="flex flex-row text-5xl md:text-7xl font-bold mb-4 text-gruvbox-aqua-dark">
           <FaChevronRight className="text-gruvbox-gray-dark transform-[scale(0.75)]" />
