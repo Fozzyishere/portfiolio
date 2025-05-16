@@ -7,8 +7,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
-      <div className="bg-gruvbox-bg0 text-gruvbox-fg4 flex flex-wrap items-center mx-auto p-4">
+    <nav className="fixed top-0 left-0 right-0 z-10">
+      <div className="bg-gruvbox-bg0 text-gruvbox-fg4 flex flex-wrap items-center mx-auto p-4 drop-shadow-md">
         <ul className="ml-auto flex flex-row">
           <li className="mr-6 hover:text-gruvbox-fg2">
             <a href="#about-me" onClick={e => { e.preventDefault(); scrollToSection("about-me"); }}>
